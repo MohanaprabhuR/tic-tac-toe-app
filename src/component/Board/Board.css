@@ -1,0 +1,58 @@
+.bord-conatiner .row {
+  display: flex;
+
+  align-items: center;
+}
+
+.bord-conatiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.bord-conatiner .cell {
+  width: 20vw;
+  height: 20vh;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  font-size: 6rem;
+  font-weight: 700;
+}
+
+.bord-conatiner .cell.yellow {
+  background-color: yellow;
+}
+
+.bord-conatiner .cell.orange {
+  background-color: orange;
+}
+
+.reset-button {
+  margin-top: 4rem;
+}
+
+.reset-button button {
+  padding: 12px 70px;
+  color: tomato;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.character {
+  color: white;
+  font-size: 24px;
+  font-weight: 800;
+  margin: 0;
+  padding: 12px;
+}
